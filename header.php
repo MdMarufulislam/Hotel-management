@@ -62,7 +62,7 @@ id="navigation" class="navbar navbar-toggleable-md fixed-top navbar-light bg-fad
 						  <li><a href="./#service">Service</a></li>					  
 						  <li><a href="./#top_deals">Top deals</a></li>
 						  <li><a href="./#special_package">package</a></li>
-						  <li class="item"><a href="room.php">Rooms</a></li>
+						  <li class="item"><a href="room.php">Hotels</a></li>
                           <li class="item"><a href="food.php">Food</a></li>
 				          <li class="item"><a href="cart.php">Cart</a></li>
 						  <!-- <li><a href="#gallery">Gallery</a></li>
