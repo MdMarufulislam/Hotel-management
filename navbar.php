@@ -55,6 +55,7 @@
 						  <li><a href="#special_package">package</a></li>
 						  <li class="item"><a href="room.php">Hotels</a></li>
                           <li class="item"><a href="food.php">Food</a></li>
+                          <li class="item"><a href="ticket-book/pass-dashboard.php">Ticket</a></li>
 				          <li class="item"><a href="cart.php">Cart</a></li>
 						  <!-- <li><a href="#gallery">Gallery</a></li>
 						  <li><a href="#blog">Blog</a></li> -->
