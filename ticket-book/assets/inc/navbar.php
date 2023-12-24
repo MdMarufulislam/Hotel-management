@@ -12,26 +12,45 @@
     while($row=$res->fetch_object())
     {
 ?>
-    <!-- <nav class="navbar navbar-expand fixed-top be-top-header"> -->
-        <div class="container-fluid">
-          <div class="be-navbar-header"><a class="navbar-brand" href="pass-dashboard.php"></a>
+<style>
+.redirect_Ticket{
+  background-color: #4285f4;
+    color: white;
+    /* border: 1px solid red; */
+    padding: 5px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    list-style: none;
+  }
+  .redirect_Ticket:hover{
+     color:white;
+    
+  }
+
+  .rakib{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .ticket{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+.rktext{    justify-content: center;}
+</style>
+    <nav class="navbar navbar-expand fixed-top be-top-header">
+        <div class="container-fluid ">
+          <div class="be-navbar-header rktext"><a class="ticket" href="pass-dashboard.php">Ticket</a>
           </div>
-          <div class="page-title"><span>
-          
-          <?php 
-          $welcome_string="Hello"; 
-          $numeric_date=date("G");
-          if($numeric_date>=0&&$numeric_date<=11) 
-          $welcome_string="Good Morning!"; 
-          else if($numeric_date>=12&&$numeric_date<=17) 
-          $welcome_string="Good Afternoon!"; 
-          else if($numeric_date>=18&&$numeric_date<=23) 
-          $welcome_string="Good Evening!"; 
-          echo "$welcome_string"; 
-          ?>
-          
-          <?php echo $row->pass_uname;?></span></div>
-          <div class="be-right-navbar">
+          <div class="page-title rakib" >
+            
+          <div><a href="../#home" class="redirect_Ticket">
+        Home
+    </a></div> </div>
+          <!-- <div class="be-right-navbar">
             <ul class="nav navbar-nav float-right be-user-nav">
               <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-expanded="false"><img src="assets/img/profile/<?php echo $row->pass_dpic;?>" alt="Avatar"><span class="user-name">Túpac Amaru</span></a>
                 <div class="dropdown-menu" role="menu">     
@@ -39,7 +58,7 @@
                 </div>
               </li>
             </ul>
-          </div>
+          </div> -->
         </div>
       </nav>
 <?php }?>

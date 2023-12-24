@@ -18,7 +18,7 @@
                       while($row=$res->fetch_object())
                       {
                     ?>
-                  <li class="parent"><a href="#"><i class="icon mdi mdi-face"></i><span><?php echo $row->pass_uname;?>'s Profile</span></a>
+                  <!-- <li class="parent"><a href="#"><i class="icon mdi mdi-face"></i><span><?php echo $row->pass_uname;?>'s Profile</span></a>
                     <ul class="sub-menu">
                       <li><a href="pass-profile.php">View</a>
                       </li>
@@ -31,7 +31,7 @@
                       </li>
                       
                     </ul>
-                  </li>
+                  </li> -->
                     <?php }?>
                   <li class="parent"><a href="#"><i class="icon mdi mdi-train"></i><span>Trains</span></a>
                   
@@ -62,7 +62,7 @@
                       </li>
                     </ul>
                   </li>                  
-                  <li><a href="pass-logout.php "><i class="icon mdi mdi-exit-run"></i><span>Logout</span></a>
+                  <!-- <li><a href="pass-logout.php "><i class="icon mdi mdi-exit-run"></i><span>Logout</span></a> -->
                   </li>
                 </ul>
               </div>
