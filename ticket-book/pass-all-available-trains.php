@@ -72,7 +72,7 @@
                             <td><?php echo $row->current;?></td>
                             <td><?php echo $row->destination;?></td>
                             <td><?php echo $row->time;?></td>
-                            <td>$<?php echo $row->fare;?></td>
+                            <td><?php echo $row->fare;?> TK</td>
                             <td><?php echo $row->passengers;?><td>
                         </tr>
                     <?php $cnt = $cnt+1; }?>

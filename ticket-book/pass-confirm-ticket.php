@@ -91,7 +91,7 @@
                         <td class="center"><?php echo $row->pass_dep_station;?></td>
                         <td class="center"><?php echo $row->pass_arr_station;?></td>
                         <td class="center"><?php echo $row->pass_dep_time;?></td>
-                        <td class="center">$<?php echo $row->pass_train_fare;?></td>
+                        <td class="center"><?php echo $row->pass_train_fare;?> Tk</td>
                         <td class="center"><?php echo $row->pass_fare_payment_code;?></td>
                         <td class="center"><a href="pass-confirm-checkout-ticket.php?pass_id = <?php echo $row->pass_id;?>"><button class="btn btn-sm btn-success">Confirm Payment</button></a></td>
                       </tr>

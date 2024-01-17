@@ -73,7 +73,7 @@
                         <td class="center"><?php echo $row->current;?></td>
                         <td class="center"><?php echo $row->destination;?></td>
                         <td class="center"><?php echo $row->time;?></td>
-                        <td class="center">$<?php echo $row->fare;?></td>
+                        <td class="center"><?php echo $row->fare;?> Tk</td>
                         <td class="center">
                         <a href="pass-book-specific-train.php?id=<?php echo $row->id?>"><button class="btn btn-success btn-sm">Book</button></a>
                         </td>

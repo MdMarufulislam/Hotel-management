@@ -74,7 +74,7 @@
                         <td class="center"><?php echo $row->pass_dep_station;?></td>
                         <td class="center"><?php echo $row->pass_arr_station;?></td>
                         <td class="center"><?php echo $row->pass_dep_time;?></td>
-                        <td class="center">$<?php echo $row->pass_train_fare;?></td>
+                        <td class="center"><?php echo $row->pass_train_fare;?> TK</td>
                         <td class="center">
                             <a href="pass-cancel-specific-train.php?pass_id=<?php echo $row->pass_id?>"><button class="btn btn-danger btn-sm">Cancel</button></a>  
                         </td>

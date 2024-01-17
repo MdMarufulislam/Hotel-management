@@ -22,9 +22,9 @@ session_start();
               </tr>    
                     <?php
                         
-                          if(isset($_SESSION['cart']))
+                          if(isset($_REQUEST['cart']))
                           {
-                            foreach($_SESSION['cart'] as $key => $value)
+                            foreach($_REQUEST['cart'] as $key => $value)
                             {
                                 $sr=$key+1;
                                 
@@ -67,7 +67,7 @@ session_start();
                <br>
                <?php 
 
-                 if(isset($_SESSION['cart']) && count($_SESSION['cart'])>0)
+                 if(isset($_REQUEST['cart']) && count($_REQUEST['cart'])>0)
                  {
 
                  

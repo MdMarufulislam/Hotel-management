@@ -95,7 +95,7 @@
                         <td><?php echo $row->pass_dep_station;?></td>
                         <td><?php echo $row->pass_arr_station;?></td>
                         <td><?php echo $row->pass_dep_time;?></td>
-                        <td>$<?php echo $row->pass_train_fare;?></td>
+                        <td><?php echo $row->pass_train_fare;?> Tk</td>
                       </tr>
                       <hr>
                         <?php }?>

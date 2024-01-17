@@ -103,7 +103,7 @@
                             <td><?php echo $row->destination;?></td>
                             <td><?php echo $row->time;?></td>
                             <td><?php echo $row->passengers;?></td>
-                            <td>$<?php echo $row->fare;?></td>
+                            <td><?php echo $row->fare;?> TK</td>
                           </tr>
 
                       <?php $cnt=$cnt+1; }?>
